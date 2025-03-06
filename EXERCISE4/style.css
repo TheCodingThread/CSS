@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    height: 100px;
+    align-items: center;
+}
+
+.company{
+    display: flex;
+    position: relative;
+    right: 87px;
+    gap: 10px;
+}
+
+.image{
+    height: 50px;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.title{
+    display: flex;
+    font-size: 9px;
+    justify-content: flex-end;
+}
+
+.elements{
+    display: flex;
+    gap: 40px;
+    font-size: 17px;
+    position: relative;
+    left: 80px;
+}
+
+.class1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.arrow{
+    height: 10px;
+}

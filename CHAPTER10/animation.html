@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: yellowgreen;
+            animation: am1 3s ease-in-out 3s infinite alternate;
+        }
+
+        @keyframes am1 {
+            from {
+                translate: 500px;
+            }
+            to {
+                translate: 1000px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            BOX
+        </div>
+    </div>
+</body>
+</html>

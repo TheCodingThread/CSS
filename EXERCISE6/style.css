@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    animation: AM1 5s linear infinite, AM2 0.8s ease-out infinite alternate;
+    position: relative;
+}
+ 
+@keyframes AM1{
+   from{
+        left: 0;
+   }
+   to{
+        left: 95%;
+   }
+}
+
+@keyframes AM2{
+   from{
+        bottom: 0;
+   }
+   to{
+        bottom: 50%;
+   }
+    
+}

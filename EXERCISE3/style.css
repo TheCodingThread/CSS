@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: greenyellow;
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    /* width: 100vh; */
+}
+
+div ul{
+    display: flex;
+    list-style: none;
+    background-color: rgb(176, 15, 176);
+}
+
+div ul li{
+    padding: 20px;
+}
+
+div ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.box{
+    background-color: greenyellow;
+}
+
+.box div{
+    border: 2px solid black;
+    width: 20vmin;
+    height: 10vmax; 
+    margin: 40px;
+}
+
+.box{
+    padding: 100px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+     /* position: relative;
+     left: 300px; */
+     background-color: aqua;
+}
+
+.box2{
+    /* position: relative;
+    left: 900px;
+    bottom: 504px; */
+    background-color: teal;
+}
+
+.box div p{
+    text-align: center;
+}
+
+.box1 p{
+    font-size: 25px;
+}
+
+.box2 p{
+    font-size: 25px;
+}
+
+.footer{
+    font-size: 25px;
+    height: 200px;
+    text-align: center;
+    border: 5px solid black;
+    /* position: sticky; */
+    /* bottom: 0px; */
+    border-radius: 20px;
+    padding: 20px;
+    /* margin: auto; */
+    background-color: burlywood;
+    font-weight: 600;
+}
+
+.image{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    height: 80px;
+    border-radius: 50%;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        :root{
+            --color: red;
+            --seccolor: rgb(238, 115, 115);
+            --defpad: 34px;
+        }
+
+        .firstdiv{
+            padding: var(--defpad);
+            background-color: var(--color);
+        }
+
+        .seconddiv{
+            background-color: var(--seccolor);
+        }
+    </style>
+</head>
+<body>
+    <div class="firstdiv">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, iusto!
+    </div>
+    <hr>
+    <div class="seconddiv">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, reiciendis.
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color: red;
+    --seccolor: blue;
+    --bodycolor: gray;
+    --divcolor: magenta;
+}
+
+div ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    background-color: var(--seccolor);
+}
+
+button {
+    background-color: var(--color);
+    color: white;
+    font-weight: 600;
+}
+
+.firstlist {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.secondlist {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.thirdlist {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+body {
+    background-color: var(--bodycolor);
+}
+
+div {
+    background-color: var(--divcolor);
+}
